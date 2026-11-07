@@ -9,6 +9,7 @@ This guide covers macOS, Linux, and Windows through WSL2. Every later step assum
 ## Before you start
 
 - You need a terminal and an internet connection.
+- You need a model API key before your first chat. See [Get your keys](get-your-keys.md).
 - The installer is a script downloaded from the web and run in one step. To read it first, open the [Hermes install script](https://hermes-agent.nousresearch.com/install.sh) in your browser.
 - On macOS, the official docs support Apple Silicon. Intel Macs are listed as not supported; see [Platform Support](https://github.com/NousResearch/hermes-agent/blob/a9ff9799e273f525b82718cdc69fdec71b1dca5a/website/docs/getting-started/platform-support.md).
 

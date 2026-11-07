@@ -4,7 +4,7 @@
 
 ## Pick a model provider
 
-Hermes does not include a model. You connect a provider account. Run the interactive picker:
+Hermes does not include a model. You connect a provider account. If you don't have an API key yet, see [Get your keys](get-your-keys.md). Run the interactive picker:
 
 ```bash
 hermes model

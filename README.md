@@ -34,7 +34,7 @@ Your vendor key travels with each call and, according to the live site, is used 
 - A REA ControlPlane key, if you want to complete the REA step. See [reacontrolplane.com](https://reacontrolplane.com) for current plan and trial details.
 - About half an hour, and somewhere to keep your keys private (a password manager works well).
 
-Platform notes are in [docs/installation.md](docs/installation.md).
+Platform notes are in [docs/installation.md](docs/installation.md). New to API keys? See [docs/get-your-keys.md](docs/get-your-keys.md).
 
 ## The path, step by step
 

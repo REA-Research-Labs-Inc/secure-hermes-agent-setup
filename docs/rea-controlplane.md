@@ -10,7 +10,7 @@ REA's public pages: [Hermes setup](https://reacontrolplane.com/agents/hermes.htm
 
 ## What you need
 
-- A REA API key. You get one when you create an account through REA's [sign-up page](https://api.reacontrolplane.com/signup); it is shown once, so store it safely.
+- A REA API key ([Get your keys](get-your-keys.md) covers both keys). You get one when you create an account through REA's [sign-up page](https://api.reacontrolplane.com/signup); it is shown once, so store it safely.
 - An API key from your model vendor's developer console. A consumer chat-app sign-in or subscription does not work through REA; you need an API key.
 - Hermes installed, with a first chat working ([step 2](first-chat-and-skill.md)) and [Safety basics](safety.md) (step 3) in place.
 
