@@ -1,6 +1,6 @@
 # Get your keys
 
-> This is an unofficial guide from REA Research Labs, Inc. It is not affiliated with, sponsored by, or endorsed by Nous Research, OpenAI, Anthropic, or xAI. "Hermes" refers to the open-source Hermes Agent project by Nous Research ([source](https://github.com/NousResearch/hermes-agent), MIT License).
+> This is an unofficial guide from REA Research Labs, Inc. It is not affiliated with, sponsored by, or endorsed by Nous Research, OpenAI, or Anthropic. "Hermes" refers to the open-source Hermes Agent project by Nous Research ([source](https://github.com/NousResearch/hermes-agent), MIT License).
 
 Do this before [step 2](first-chat-and-skill.md).
 
@@ -31,12 +31,7 @@ These steps come from each vendor's public documentation, checked on 7 November 
 2. Set up billing in the Console.
 3. Create a key on the API keys page in the Console ([getting started](https://docs.anthropic.com/en/api/getting-started)). Copy it into a password manager right away.
 
-### xAI
-
-1. Sign up at the [xAI Console](https://console.x.ai) and add credits ([quickstart](https://docs.x.ai/docs/tutorial), [billing](https://docs.x.ai/docs/key-information/billing)).
-2. Create a key on the API Keys page in the Console. Copy it into a password manager right away.
-
-For Anthropic and xAI, we did not find a public page saying whether you can view the key again later. Assume you can't.
+For Anthropic, we did not find a public page saying whether you can view the key again later. Assume you can't.
 
 ## Get a REA key (optional)
 
@@ -50,7 +45,6 @@ For Anthropic and xAI, we did not find a public page saying whether you can view
 - Know whether a limit actually stops requests or only sends an alert:
   - **OpenAI:** A [project spend limit](https://help.openai.com/en/articles/9186755-managing-your-work-in-the-api-platform-with-projects) only monitors spending unless you turn on "Enforce a hard limit". Even then, spending can go slightly over the limit before requests stop. Spend alerts send a notification and don't stop requests. When prepaid credits run out, requests fail, but there can be a short delay first.
   - **Anthropic:** You can set your own [spend limit](https://docs.anthropic.com/en/api/rate-limits) on the Console Billing page. When usage reaches it, requests are refused.
-  - **xAI:** With the default $0 invoiced billing limit, requests are refused once prepaid credits run out ([billing](https://docs.x.ai/docs/key-information/billing)). Auto top-up has a monthly maximum you can set. The 80% warning is a notice only.
 - None of these is an instant cutoff. Check your usage page after your first few chats.
 
 ## Store keys safely
