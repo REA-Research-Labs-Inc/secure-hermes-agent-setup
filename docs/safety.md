@@ -1,6 +1,6 @@
 # 3. Safety basics
 
-> This is an unofficial community guide from REA Research Labs, Inc. It is not affiliated with, sponsored by, or endorsed by Nous Research. "Hermes" refers to the open-source Hermes Agent project by Nous Research ([source](https://github.com/NousResearch/hermes-agent), MIT License).
+> This is an unofficial guide from REA Research Labs, Inc. It is not affiliated with, sponsored by, or endorsed by Nous Research. "Hermes" refers to the open-source Hermes Agent project by Nous Research ([source](https://github.com/NousResearch/hermes-agent), MIT License).
 
 An agent that can run commands acts with your user account's permissions. The settings below reduce risk; none of them makes an agent safe by itself. Details are on the official [Security page](https://hermes-agent.nousresearch.com/docs/user-guide/security).
 

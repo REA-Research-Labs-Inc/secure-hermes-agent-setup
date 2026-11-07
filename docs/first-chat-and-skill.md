@@ -1,6 +1,6 @@
 # 2. Connect a model, chat, and add a skill
 
-> This is an unofficial community guide from REA Research Labs, Inc. It is not affiliated with, sponsored by, or endorsed by Nous Research. "Hermes" refers to the open-source Hermes Agent project by Nous Research ([source](https://github.com/NousResearch/hermes-agent), MIT License).
+> This is an unofficial guide from REA Research Labs, Inc. It is not affiliated with, sponsored by, or endorsed by Nous Research. "Hermes" refers to the open-source Hermes Agent project by Nous Research ([source](https://github.com/NousResearch/hermes-agent), MIT License).
 
 ## Pick a model provider
 
@@ -35,6 +35,22 @@ Send a short message, for example: "Say hello in one sentence." Useful commands 
 | `/model` | Switch model |
 | `/usage` | Show usage for the session |
 | `Ctrl+C` | Interrupt the current turn |
+
+## Before your first skill: check approvals
+
+Hermes asks before running commands it treats as dangerous. Before you add skills, confirm approvals are on:
+
+```bash
+hermes config get approvals.mode
+```
+
+A new install reports `smart`. To require approval for actions Hermes treats as dangerous, switch to `manual`:
+
+```bash
+hermes config set approvals.mode manual
+```
+
+[Safety basics](safety.md) (the next step) explains these modes and the other safety settings.
 
 ## A first skill
 

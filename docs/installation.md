@@ -1,6 +1,6 @@
 # 1. Install Hermes
 
-> This is an unofficial community guide from REA Research Labs, Inc. It is not affiliated with, sponsored by, or endorsed by Nous Research. "Hermes" refers to the open-source Hermes Agent project by Nous Research ([source](https://github.com/NousResearch/hermes-agent), MIT License).
+> This is an unofficial guide from REA Research Labs, Inc. It is not affiliated with, sponsored by, or endorsed by Nous Research. "Hermes" refers to the open-source Hermes Agent project by Nous Research ([source](https://github.com/NousResearch/hermes-agent), MIT License).
 
 The installer puts the latest stable Hermes release on your machine. The commands below match the official Hermes [README](https://github.com/NousResearch/hermes-agent/blob/a9ff9799e273f525b82718cdc69fdec71b1dca5a/README.md) and [installation guide](https://hermes-agent.nousresearch.com/docs/getting-started/installation) as of upstream commit `a9ff979` (November 7, 2026). Testing status, limited: on November 7, 2026 we ran only the Linux steps, in a fresh temporary home directory inside a sandbox on one Linux machine (same operating-system user and kernel, not a separate virtual machine), and they installed Hermes v0.23.0 (stable). The macOS and Windows (WSL2) steps are untested by us; they were only checked against the official sources. If this page and the official guide disagree, follow the official guide.
 

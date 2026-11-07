@@ -1,6 +1,6 @@
 # 4. Optional: audit and policy with REA ControlPlane
 
-> This is an unofficial community guide from REA Research Labs, Inc. It is not affiliated with, sponsored by, or endorsed by Nous Research. "Hermes" refers to the open-source Hermes Agent project by Nous Research ([source](https://github.com/NousResearch/hermes-agent), MIT License).
+> This is an unofficial guide from REA Research Labs, Inc. It is not affiliated with, sponsored by, or endorsed by Nous Research. "Hermes" refers to the open-source Hermes Agent project by Nous Research ([source](https://github.com/NousResearch/hermes-agent), MIT License).
 
 REA ControlPlane sits on the model hop. Hermes sends its model requests to REA, and REA forwards them to your model vendor using your own vendor key. LoopGuard, PreFlight, and TraceGuard are included on every plan. Which checks act on a request depends on its contents and the controls configured for your key. REA does not host the model.
 
@@ -62,7 +62,7 @@ Hermes documents these settings on its [AI Providers](https://hermes-agent.nousr
 
 ### Alternative: one combined key
 
-REA also accepts the REA key and vendor key joined by a dot, for tools with no header setting. Use one method only. If you set both, REA forwards the combined key.
+REA also accepts one combined key, for tools with no header setting: your REA key, a dot, then your vendor key. REA uses the part after the dot as the vendor key for the upstream call. Use one method only. If you send both, the combined key takes precedence: REA forwards the vendor key from the combined key, not the one in the `X-Upstream-Api-Key` header. The header is ignored for choosing the upstream key.
 
 ```bash
 REA_COMBINED_KEY=your-rea-key.your-vendor-api-key
